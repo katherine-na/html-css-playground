@@ -1,0 +1,72 @@
+body {
+  background-color: white;
+}
+
+header {
+  background: rgb(214, 237, 244);
+  height: 80px;
+  width: 100%;
+  color: rgb(26, 99, 125);
+  text-align: center;
+  padding: 5px;
+}
+
+nav {
+  background-color: rgb(249, 233, 249);
+  height: 40px;
+  width: 100%;
+  margin: 10px;
+}
+
+.titulo {
+  color: black;
+}
+
+.botones {
+  text-decoration: none;
+  margin: 10px 20px;
+  color: black;
+  padding: 10px 20px;
+}
+
+h1 {
+  color: rgb(76, 188, 102);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(76, 188, 102);
+}
+
+p {
+  font-size: x-large;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+}
+
+.hijo-1 {
+  background-color: white;
+  color: black;
+}
+
+.hijo-2 {
+  background-color: rgb(240, 247, 197);
+  padding: 50px;
+}
+
+img {
+  width: 60%;
+  height: 70%;
+  margin: 50px 90px;
+}
+
+footer {
+  background-color: rgb(246, 231, 216);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

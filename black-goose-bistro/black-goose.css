@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(248, 240, 226);
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin: 50px 100px 0px 630px;
+}
+
+h1 {
+  font-weight: lighter;
+  text-align: center;
+}
+
+.line {
+  margin: 0px 320px 0px 260px;
+}
+
+.restaurant-information {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.item {
+  font-family: Arial, Helvetica, sans-serif;
+  color: chocolate;
+  font-weight: bold;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}

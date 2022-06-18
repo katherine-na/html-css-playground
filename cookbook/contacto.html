@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contactanos!</title>
+</head>
+<body>
+    <nav style="background-color:rgba(200, 227, 212, 0.833)">
+        <button>
+            <a href="home.html">Home</a>
+        </button>
+    </nav>
+    <h1> ¡Registrate con nosotros!</h1>
+    <form>
+        <div style="display:flex;flex-direction:row">
+            <div>
+                <label for="name">Nombre</label><br>
+                <input type="text" id="name" name="fname" required/><br>
+                <label for="city">Ciudad</label><br>
+                <input type="text" id="city" name="pcity" required/><br>
+                <label for="place">País</label><br>
+                <input type="text" id="place" name="place" required/><br><br>
+                <textarea placeholder="your message here" name="message" rows="10" cols="15"></textarea><br>
+                <input type="checkbox" id="check" name="cbox"/>
+                <label for="check">Recibir recetas mensuales</label>
+            </div>
+            <div>
+                <label for="lastname">Apellido</label><br>
+                <input type="text" id="lastname" name="lname" required/><br>
+                <label for="cp">CP</label><br>
+                <input type="number" id="cp" name="copos" required/><br>
+                <label for="myfav">Mi postre favorito es...</label><br>
+                <input type="text" id="myfav" name="question" required/><br>
+                <label for="email">Correo</label><br>
+                <input type="email" id="mail" name="mail" required/><br><br>
+            </div>
+        </div>
+        <input type="submit" value="Enviar!">
+         
+    </form>
+</body>
+</html>

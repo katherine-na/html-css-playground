@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(3, 2, 11);
+}
+
+.papa {
+  display: flex;
+  flex-direction: row;
+  margin: 230px 100px;
+}
+
+.hijo-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 33px;
+}
+
+.image-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
