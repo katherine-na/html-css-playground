@@ -1,73 +1,93 @@
-body {
-  margin: 50px;
-}
-
-header {
+.help-house {
   background-color: #ff385c;
-  padding: 30px;
   width: 70%;
-  margin-left: 11%;
+  margin: 20px auto;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.head {
+.learn-more-btn {
+  color: white;
+  background-color: #ff385c;
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.learn-more-btn:hover {
+  background-color: rgb(143, 140, 140);
+}
+
+.ask-superhost {
+  position: relative;
   text-align: center;
+}
+
+.ask-superhost-text {
+  position: absolute;
+  top: 200px;
+  left: 500px;
   color: white;
 }
 
-.lady {
-  width: 70%;
+.ask-superhost-title {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.lady-img {
+  width: 73%;
   height: 70%;
-  margin-top: 30px;
-  margin-left: 11%;
 }
 
-.divone {
-  position: relative;
-  display: inline-block;
+.ask-superhost-btn {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.divtwo {
-  position: absolute;
-}
-
-footer {
-  background-color: rgb(250, 246, 246);
-  padding: 40px;
-  width: 70%;
-  display: inline-flex;
-  margin: 30px 130px;
+.ask-superhost-btn:hover {
+  background-color: rgb(205, 201, 201);
 }
 
 .air {
-  width: 50%;
+  width: 75%;
   height: 20%;
 }
 
-.bird {
+.bird-img {
   width: 80%;
   height: 80%;
-  margin-left: 28%;
+  margin-left: 117px;
 }
 
-a {
+.protection {
+  background-color: rgb(250, 246, 246);
+  width: 70%;
+  display: flex;
+  margin: 20px auto;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.protection-btn:hover {
+  background-color: rgb(205, 201, 201);
+}
+
+.protection-btn {
   text-decoration: none;
   color: black;
-  display: inline-block;
-  padding: 10px 10px;
-  border-radius: 10px;
-  border-width: 1px;
-}
-
-/* button {
-  border-radius: 10px;
-  border-width: 1px;
-} */
-
-a:hover button {
-  background-color: rgb(170, 168, 168);
-}
-
-.headlink {
-  text-decoration: none;
-  color: black;
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
 }
