@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(223, 233, 239);
+}
+
+.title {
+  margin: 100px 330px 55px;
+}
+
+.tutorials {
+  background-color: white;
+  padding: 15px;
+  display: inline-block;
+}
+
+.slack-vs-email {
+  background-color: white;
+  padding: 15px;
+  display: inline-block;
+}
+
+.slack-vs-img {
+  width: 60%;
+  height: 60%;
+}
+
+.customer-stories {
+  background-color: white;
+  padding: 15px;
+  display: inline-block;
+}
+
+.customer-img {
+  width: 40%;
+  height: 40%;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(50, 101, 196);
+}
