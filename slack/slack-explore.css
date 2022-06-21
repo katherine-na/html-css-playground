@@ -15,41 +15,65 @@ body {
   background-color: white;
   padding: 15px;
   display: inline-block;
-  width: 20%;
+  width: 18%;
+  height: 390px;
   position: absolute;
   left: 13%;
+  border: 1px solid white;
+  box-shadow: 5px 15px 15px 5px rgb(220, 218, 218);
+}
+
+.tutorials-img {
+  width: 98%;
+  height: 45%;
 }
 
 .slack-vs-email {
   background-color: white;
   padding: 15px;
   display: inline-block;
-  width: 20%;
+  width: 18%;
+  height: 390px;
   position: absolute;
   left: 38%;
+  box-shadow: 5px 15px 15px 5px rgb(220, 218, 218);
 }
 
 .slack-vs-img {
-  width: 100%;
-  height: 60%;
+  width: 98%;
+  height: 45%;
 }
 
 .customer-stories {
   background-color: white;
   padding: 15px;
   display: inline-block;
-  width: 20%;
+  width: 19%;
+  height: 390px;
   position: absolute;
   left: 63%;
+  box-shadow: 5px 15px 15px 5px rgb(220, 218, 218);
 }
 
 .customer-img {
-  width: 100%;
-  height: 40%;
+  width: 98%;
+  height: 45%;
 }
 
 a {
   text-decoration: none;
   text-transform: uppercase;
-  color: rgb(50, 101, 196);
+  color: rgb(92, 140, 195);
+  position: absolute;
+  top: 94%;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.tutorial-div {
+  position: absolute;
+  left: 81%;
+  top: 91%;
+  color: rgb(92, 140, 195);
+  font-size: 205%;
 }
